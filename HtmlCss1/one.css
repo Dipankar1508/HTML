@@ -1,0 +1,14 @@
+.d{
+    background-color: chartreuse;
+    color: blue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.ds{
+    text-align: center;
+    background-color: rgba(146, 243, 20, 0.842);
+    border: 6px solid red;
+    color: blue;
+}
+.f{
+    text-align: center;
+}
