@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bio Data</title>
+</head>
+<style>
+    *{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url(abstract_wallpaper.jpg);
+    background-size: cover;
+}
+.head{
+    font-size: 3rem;
+    text-align: center;
+    margin: 40px auto;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.type{
+    color:white;
+    background: transparent;
+    border: transparent;
+    width: 250px;
+}
+.main{
+    width: 50vw;
+    height: 94vh;
+    border: 2px solid white;
+    border-radius: 20px;
+    color: white;
+    margin: 15px auto;
+    
+}
+.mini-main{
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+.details{
+    border-bottom: 2px solid white;
+    margin-top: 20px;
+}
+.gender{
+    margin-top: 20px;
+}
+.dob{
+    margin-top: 20px;
+    /* width: 200px; */
+}
+.type2{
+    color:white;
+    background: transparent;
+    border: transparent;
+    width: 140px;
+}
+.pic{
+    margin-top: 20px;
+}
+.shape{
+    width: 70px;
+    height: 25px;
+    border-radius: 15px;
+    margin: 20px 50px;
+}
+</style>
+<body>
+    <div class="main">
+        <div class="head">
+            <b>FORM</b>
+        </div>
+        <div class="mini-main">
+            <form action="" class="form">
+
+                <div class="details">
+                    Name :<input type="text" class="type">
+                </div>
+                <div class="details">
+                    E-mail :<input type="email" class="type">
+                </div>
+                <div class="details">
+                    Whatsapp Number :<input type="number" class="type">
+                </div>
+                <div class="dob">
+                    DOB :<input type="date" class="type2">
+                </div>
+                <div class="gender">
+                    Gender :  
+                    <input type="radio" name="gender" value="Male">Male
+                    <input type="radio" name="gender" value="Female">Female
+                    <input type="radio" name="gender" value="Male">others
+                </div>
+                <div class="pic">
+                    Passport Size photo : <input type="file">
+                </div>
+                <div class="button">
+                    <button class="shape">Reset</button>
+                    <button class="shape">Submit</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
