@@ -1,0 +1,85 @@
+header{
+    background-color: black;
+    border: 2px solid rgb(23, 170, 228);
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    justify-content: space-evenly;
+
+}
+.icon{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+
+    left: 15px;
+    width: 100px;
+    transform: scale(1.2);
+}
+.bmark{
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+.all-icon{
+    width: 100px;
+    transform: scale(1.2);
+}
+.music{
+    display: flex;
+    justify-content: space-evenly;
+    display: 100vw;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+.part1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.part2{
+    text-align: center;
+    margin-top: 10px;
+    color: white;
+}
+.aud{
+    border-radius: 10px;
+    width: 31%;
+    height: 120px;
+    background-color: rgba(39, 39, 39, 0.959);
+    border: 2px solid rgb(10, 192, 238);
+}
+.video{
+    display: flex;
+    justify-content: space-evenly;
+    display: 100vw;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+.position{
+    height: 340px;
+    width: 31%;
+    background-color: grey;
+    border: 2px solid rgb(10, 192, 238);
+    border-radius: 10px;
+}
+.p1{
+    display: flex;
+    justify-content: center;
+}
+.p2{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+video{
+    width: 97%;
+    height: 280px;
+}
